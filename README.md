@@ -5,6 +5,7 @@ follow the instructions by starting the django project
   https://github.com/krishnareddy02/fatmug/issues/1#issue-2061134203
 
   - open the command prompt and type "cmd"
+  - https://github.com/krishnareddy02/fatmug/issues/2#issue-2061134644
   - 
   - create virtualenv of name  by the command "mkvirtualenv data"(virtualenv name)
   - 
