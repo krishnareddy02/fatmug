@@ -2,6 +2,7 @@
 follow the instructions by starting the django project
 
   -place the entire project in a single folder
+  https://github.com/krishnareddy02/fatmug/issues/1#issue-2061134203
 
   - open the command prompt and type "cmd"
   - 
