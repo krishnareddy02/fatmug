@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            /* width: 300px; */
+            width: auto;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            background-color: #22b0df;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+<h1>Purchase Order Details -></h1>
+    <form action="purchase_order_details" method="POST">
+        {%csrf_token%}
+        <label for="po_number">PO Number</label>
+        <input type="text" id="name" name="po_number" required>
+
+        <label for="venders_code">vender code</label>
+        <input type="text" id="venders_code" name="venders_code" required>
+
+        <label for="order_date">order date</label>
+        <input type="text" id="order_date" name="order_date" placeholder="YYYY-MM--DD" required>
+
+        <label for="delivery_date">Delivery date</label>
+        <input type="text" id="delivery_date" name="delivery_date" placeholder="YYYY-MM--DD" required>
+
+        <label for="status">status</label>
+        <input type="text" id="status" name="status" required>
+
+        <label for="successful_deliverd_date">Successful Delivery Date</label>
+        <input type="text" id="successful_deliverd_date" name="successful_deliverd_date" placeholder="YYYY-MM--DD" required>
+
+        <label for="quality_rating">Quality Rating</label>
+        <input type="tel" id="quality_rating" name="quality_rating" required>
+
+        <label for="issue_date">Issue date</label>
+        <input type="text" id="issue_date" name="issue_date" placeholder="YYYY-MM--DD" required>
+
+        <label for="acknoweldgement_date">Acknoweldgent Date</label>
+        <input type="text" id="acknoweldgement_date" name="acknoweldgement_date" placeholder="YYYY-MM--DD" required>
+
+        <button type="submit">Submit</button>
+        </div>
+            <a href="purchase_order_details" style=" background-color: #22b0df;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;">Get All Purchase Order Data</a>
+        </div>
+    </form>
+
+
+</body>
+</html>
