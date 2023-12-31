@@ -10,6 +10,11 @@ follow the instructions by starting the django project
   - create virtualenv of name  by the command "mkvirtualenv data"(virtualenv name)https://github.com/krishnareddy02/fatmug/issues/3#issue-2061135149
   - 
   - "data" is virtualenv name
+  - now install django in your virtual environment by the command "pip install django"
+  - 
+  - now install the rest framework by the command "pip install djangorestframework"
+  - 
+  - 
   - 
   - now activate the virtual environment by the command "workon data"https://github.com/krishnareddy02/fatmug/issues/5#issue-2061135550
   - 
@@ -19,7 +24,7 @@ follow the instructions by starting the django project
   
   -and next migrate the data by entering the command "pythonn manage.py migrate"https://github.com/krishnareddy02/fatmug/issues/7#issue-2061135917
   
-  -after the successful migration run the server by the command "python manage.py runserver"
+  -after the successful migration run the server by the command "python manage.py runserver"https://github.com/krishnareddy02/fatmug/issues/8#issue-2061136091
   
   
   
