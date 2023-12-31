@@ -11,7 +11,7 @@ follow the instructions by starting the django project
   - 
   - "data" is virtualenv name
   - 
-  - now activate the virtual environment by the command "workon data"
+  - now activate the virtual environment by the command "workon data"https://github.com/krishnareddy02/fatmug/issues/5#issue-2061135550
   - 
   -in settings.py make changes the your database data connection
 
