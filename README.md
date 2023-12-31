@@ -17,7 +17,7 @@ follow the instructions by starting the django project
 
   -after activate the virtual environment run the command "python manage.py makemigrations"https://github.com/krishnareddy02/fatmug/issues/6#issue-2061135774
   
-  -and next migrate the data by entering the command "pythonn manage.py migrate"
+  -and next migrate the data by entering the command "pythonn manage.py migrate"https://github.com/krishnareddy02/fatmug/issues/7#issue-2061135917
   
   -after the successful migration run the server by the command "python manage.py runserver"
   
