@@ -1,12 +1,16 @@
 # fatmug
 follow the instructions by starting the django project
 
-  -select the project folder and open the command prompt
+  -place the entire project in a single folder
+
+  - open the command prompt and type "cmd"
+  - create virtualenv of name  by the command "mkvirtualenv data"(virtualenv name)
+  - "data" is virtualenv name
+  - now activate the virtual environment by the command "workon data"
+  -in settings.py make changes the your database data connection
+  -after activate the virtual environment run the command "python manage.py makemigrations"
+  -and next migrate the data by entering the command "pythonn manage.py migrate"
+  -after the successful migration run the server by the command "python manage.py runserver"
   
-  -type "workon data",because this is my virtualenv name
-  
-  -carefully see the database connection if incase database is not connected please change settings.py at database with your database information
-  
-  -finally run the project by the command"python manage.py runserver"
   
   
