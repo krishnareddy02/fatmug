@@ -15,7 +15,7 @@ follow the instructions by starting the django project
   - 
   -in settings.py make changes the your database data connection
 
-  -after activate the virtual environment run the command "python manage.py makemigrations"
+  -after activate the virtual environment run the command "python manage.py makemigrations"https://github.com/krishnareddy02/fatmug/issues/6#issue-2061135774
   
   -and next migrate the data by entering the command "pythonn manage.py migrate"
   
